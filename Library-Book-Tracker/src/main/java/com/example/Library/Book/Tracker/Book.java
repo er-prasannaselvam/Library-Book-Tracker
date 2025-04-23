@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-public class Model_Book {
+
     @Entity
     public class Book {
         @Id
@@ -67,4 +67,4 @@ public class Model_Book {
         private int availableQuantity;
 
     }
-}
+
